@@ -17,7 +17,4 @@ public class Autor {
 		this.prezime = prezime;
 	}
 	
-	
-	
-	
 }
