@@ -8,7 +8,7 @@ import biblioteka.interfejs.BibliotekaInterfejs;
 public class Biblioteka implements BibliotekaInterfejs{
 private List<Knjiga> knjige;
 //new comment 1
-
+//new comment 3
 public Biblioteka() {
 	// TODO Auto-generated constructor stub
 	knjige = new ArrayList<>();
