@@ -34,6 +34,9 @@ public Biblioteka() {
 	@Override
 	public List<Knjiga> pronadjiKnjigu(Autor autor, long isbn, String naslov, String izdavac) {
 		// TODO Auto-generated method stub
+		if (autor==null && isbn<=0 && naslov==null && izdavac==null)
+			return knjige;
+		
 		List<Knjiga> result = new ArrayList<>();
 		for(Knjiga k : knjige) {
 			if(k.getIsbn() == isbn)
